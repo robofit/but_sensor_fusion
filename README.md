@@ -1,7 +1,7 @@
 # but_sensor_fusion
 
 
-Package description:
+*Package description:*
 This package fuses data from the environment which is obtained  by a Hokuyo laser and a RGB-D camera.
 
 The package is tested with an UTM-30LX  and an Asus Live Xtion Pro RGB-D camera. 
