@@ -4,7 +4,7 @@
 ##Package description:
 
 <ul>
-  <li> The but_laser_rgbd_fusion package Nodes description are: </li>
+  <li> The but_laser_rgbd_fusion package nodes description are: </li>
     <ul>
       <li> filter_hokuyo filters the sonar readings to a specified min and max range. </li>
       <li> laser_rgbd_pc2 converts the data readings to pc and pc2. </li>
@@ -19,13 +19,36 @@
 
 
 ##Package parameters:
+<ul>
+  <li> filter_hokuyo </li>
+     <ul>
+        <li> </li>
+        <li> </li>
+     </ul>
+  <li> laser_rgbd_pc2 </li>
+     <ul>
+        <li> </li>
+        <li> </li>
+     </ul>
+  <li> laser_rgbd_registration </li>
+     <ul>
+        <li> </li>
+        <li> </li>
+     </ul>
+  <li> laser_rgbd_fusion </li>
+     <ul>
+        <li> </li>
+        <li> </li>
+     </ul>
+</ul>
+
 
 ##Instalation instructions:
 <ul>
-  <li> cd ~/ros/catkin_ws/src
-  <li> git clone https://github.com/robofit/but_sensor_fusion.git
-  <li> cd ../
-  <li> catkin_make
+  <li> cd ~/ros/catkin_ws/src </li>
+  <li> git clone https://github.com/robofit/but_sensor_fusion.git </li>
+  <li> cd ../ </li>
+  <li> catkin_make </li>
 </ul>
 
 ##run simulation:
