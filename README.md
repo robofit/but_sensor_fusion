@@ -10,10 +10,10 @@
 -The fused readings can be depicted under RVIZ in "Global Options/FixedFrame/laser", whrere the fused data readings topic is "\laser_xtion_sensor" 
 
 -Nodes package description
-  item filter_hokuyo filters the sonar readings to a specified min and max range.
-  item laser_rgbd_pc2 converts the data readings to pc and pc2.
-  item laser_rgbd_registration makes sensor data readings alignment .
-  item laser_rgbd_fusion fuses both sensor data readings.
+  -item filter_hokuyo filters the sonar readings to a specified min and max range.
+  -item laser_rgbd_pc2 converts the data readings to pc and pc2.
+  -item laser_rgbd_registration makes sensor data readings alignment .
+  -item laser_rgbd_fusion fuses both sensor data readings.
 
 
 
