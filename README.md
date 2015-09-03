@@ -23,7 +23,7 @@
   <li> The main parameters used in the package are listed below, the package has not been used with different parameters. </li>
   <li> filter_hokuyo </li>
      <ul>
-        <li> minimum_range_ specifies the minimun desired laser range, the default value is: 0.25 [m] </li>
+        <li> <b> minimum_range_</b> specifies the minimun desired laser range, the default value is: 0.25 [m] </li>
         <li> maximum_range_ specifies the maximum desired laser range, the default value is: 10.0 [m] </li>
      </ul>
   <li> laser_rgbd_fusion </li>
@@ -32,8 +32,7 @@
         <li>map_x_max_ defines the height of the map, the default value is: 300 [cells] </li>
          <li>  map_y_max_ defines the witdth of the map, the default value is: 300 [cells] </li>
          <li> emp specifies prior probabilistic value of a cell being empty, the default value is: [0.4]  </li>
-         <li> occ  specifies prior probabilistic value of a cell being empty, the default value is: [0.65] </li>
-         <li>  </li>
+         <li> occ  specifies prior probabilistic value of a cell being occupied, the default value is: [0.65] </li>
      </ul>
 </ul>
 
