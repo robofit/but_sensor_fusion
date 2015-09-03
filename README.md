@@ -45,7 +45,7 @@
   <li> catkin_make </li>
 </ul>
 
-##run simulation:
+##Run simulation:
 <ul>
   <li> roslaunch but_laser_rgbd_fusion laser_rgbd.launch
 </ul>
