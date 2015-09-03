@@ -19,11 +19,17 @@
 
   -item laser_rgbd_fusion fuses both sensor data readings.
 
-<ol>
+<ul>
   <li>first item</li>
-  <li>second item</li>
+  <li>second item      <!-- Look, the closing </li> tag is not placed here! -->
+    <ul>
+      <li>second item first subitem</li>
+      <li>second item second subitem</li>
+      <li>second item third subitem</li>
+    </ul>
+  </li>                <!-- Here is the closing </li> tag -->
   <li>third item</li>
-</ol>
+</ul>
 
 ##Instalation instructions:
 
