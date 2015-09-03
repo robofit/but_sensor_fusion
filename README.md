@@ -19,7 +19,11 @@
 
   -item laser_rgbd_fusion fuses both sensor data readings.
 
-
+<ol>
+  <li>first item</li>
+  <li>second item</li>
+  <li>third item</li>
+</ol>
 
 ##Instalation instructions:
 
