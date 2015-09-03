@@ -20,14 +20,17 @@
   -item laser_rgbd_fusion fuses both sensor data readings.
 
 <ul>
-  <li>first item</li>
-  <li>second item      <!-- Look, the closing </li> tag is not placed here! -->
+  <li> This package fuses data from the environment which is obtained  by a Hokuyo laser and a RGB-D camera. </li>
+  <li> -The package is tested with an UTM-30LX  and an Asus Live Xtion Pro RGB-D camera. </li>
+  <li> -The fused readings can be depicted under RVIZ in "Global Options/FixedFrame/laser", whrere the fused data readings topic is "\laser_xtion_sensor" </li>
+  <li> -Nodes package description </li>
     <ul>
-      <li>second item first subitem</li>
-      <li>second item second subitem</li>
-      <li>second item third subitem</li>
+      <li> filter_hokuyo filters the sonar readings to a specified min and max range. </li>
+      <li> laser_rgbd_pc2 converts the data readings to pc and pc2. </li>
+      <li> laser_rgbd_registration makes sensor data readings alignment. </li>
+      <li> laser_rgbd_fusion fuses both sensor data readings. </li>
     </ul>
-  </li>                <!-- Here is the closing </li> tag -->
+  </li>
   <li>third item</li>
 </ul>
 
