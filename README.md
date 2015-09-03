@@ -22,8 +22,8 @@
 <ul>
   <li> filter_hokuyo </li>
      <ul>
-        <li> </li>
-        <li> </li>
+        <li> minimum_range_ </li>
+        <li> maximum_range_ </li>
      </ul>
   <li> laser_rgbd_pc2 </li>
      <ul>
