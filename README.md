@@ -23,7 +23,7 @@
   <li> The main parameters used in the package are listed below, the package has not been used with different parameters. </li>
   <li> filter_hokuyo </li>
      <ul>
-        <li> <b> minimum_range_</b> specifies the minimun desired laser range, the default value is: 0.25 [m] </li>
+        <li> minimum_range_ specifies the minimun desired laser range, the default value is: 0.25 [m] </li>
         <li> maximum_range_ specifies the maximum desired laser range, the default value is: 10.0 [m] </li>
      </ul>
   <li> laser_rgbd_fusion </li>
