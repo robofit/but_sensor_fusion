@@ -17,6 +17,9 @@
   <li> The fused readings can be depicted under RVIZ in "Global Options/FixedFrame/laser", whrere the fused data readings topic is "\laser_xtion_sensor" </li>
 </ul>
 
+
+##Package parameters:
+
 ##Instalation instructions:
 <ul>
   <li> cd ~/ros/catkin_ws/src
@@ -27,7 +30,7 @@
 
 ##run simulation:
 <ul>
-  <li> roslaunch lunch laser_rgbd.launch
+  <li> roslaunch but_laser_rgbd_fusion laser_rgbd.launch
 </ul>
 
 
