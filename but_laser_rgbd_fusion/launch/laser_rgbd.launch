@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+
+<launch>
+
+
+
+<include file="$(find but_laser_rgbd_fusion)/launch/xtion_laser.launch" />
+
+																																																																																																																																																																																																															
+
+<!-- Converts to pointcloud and pointcloud_2 laser and xtion coordinates -->
+<node name="laser_rgbd_pc2" pkg="but_laser_rgbd_fusion" type="laser_rgbd_pc2" respawn="false" output="screen" />
+
+
+<!-- synchronises laser and RGBD data readings -->
+<node name="laser_rgbd_registration" pkg="but_laser_rgbd_fusion" type="laser_rgbd_registration" respawn="false" output="screen" />
+
+
+<!-- synchronises laser and RGBD data readings -->
+<node name="laser_rgbd_fusion" pkg="but_laser_rgbd_fusion" type="laser_rgbd_fusion" respawn="false" output="screen" />
+
+
+
+
+</launch>
+
+
+
+
