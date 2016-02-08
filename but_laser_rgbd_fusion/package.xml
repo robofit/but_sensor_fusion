@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<package>
+  <name>but_laser_rgbd_fusion</name>
+  <version>0.0.0</version>
+  <description>ROS nodes to fuse sensor data readings
+      *filter_hokuyo, filters the sonar readings to a specified min and max range.
+      *laser_rgbd_pc2, converts the data readings to pc and pc2.
+      *laser_rgbd_registration, makes sensor data readings alignment .
+      *laser_rgbd_fusion, fuses both sensor data readings.
+  </description>
+  
+  <maintainer email="plascencia@fit.vutbr.cz">Alfredo Chavez Plascencia</maintainer>
+  <license>LPGL</license>
+  <author>Alfredo Chavez Plascencia (plascencia@fit.vutbr.cz)</author>
+
+  
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>message_filters</build_depend>
+  <build_depend>pcl_conversions</build_depend>
+  <build_depend>pcl_ros</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>libpcl-all-dev</build_depend>
+  <build_depend>actionlib</build_depend>
+  <build_depend>amcl</build_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>gmapping</build_depend>
+  <build_depend>hokuyo_node</build_depend>
+  <build_depend>laser_geometry</build_depend>
+  <build_depend>move_base_msgs</build_depend>
+  <build_depend>nav_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>visualization_msgs</build_depend>
+
+  <run_depend>message_filters</run_depend>
+  <run_depend>pcl_conversions</run_depend>
+  <run_depend>pcl_ros</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>libpcl-all</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>actionlib</run_depend>
+  <run_depend>amcl</run_depend>
+  <run_depend>cv_bridge</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>gmapping</run_depend>
+  <run_depend>hokuyo_node</run_depend>
+  <run_depend>laser_geometry</run_depend>
+  <run_depend>move_base_msgs</run_depend>
+  <run_depend>nav_msgs</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>tf</run_depend>
+  <run_depend>visualization_msgs</run_depend>
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>
